@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="20">
+    <title>All Stars</title>
+    <script src="Thumb.js" defer> </script>
+    <link rel="stylesheet" href="Thumb.css">
+    <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+</head>
+
+<body id="body">
+    <!-- navbar starts -->
+    <div class="nav">
+        <a class="logo" href="main.html"><img class="image-logo" src="images/logo.jpeg" alt="logo image"></a>
+        <a class="anchor" href="main.html">Home</a>
+        <a class="anchor" href="Product.html">Shop</a>
+        <a class="anchor" href="forms.html">Comments</a>
+        <a class="anchor" href="Quiz.html">Quiz</a>
+        <a class="anchor" href="SiteMap.html">Site Map</a>
+        <a class="anchor" href="#">About us</a>
+    </div>
+    <!-- navbar ends -->
+
+    <h2 style="color: rgb(22, 19, 19);margin: 10px; padding: 0;">Student 4</h2>
+    <div>
+        <img class="capture" src="images/new.PNG" alt="Snow">
+        <div class="centered" style="color: #05085b;"><b>Sports</b></div>
+    </div>
+
+    <!-- Font Size Buttons -->
+    <div class="container">
+        <div class="buttons">
+            <button type="button" class="button" onclick="fontchange1()">A</button>
+            <button type="button" class="button" onclick="fontchange2()">A</button>
+            <button type="button" class="button" onclick="fontchange3()">A</button>
+
+        </div>
+    </div>
+
+    <!-- Drop town for color changing -->
+    <div class="changeColor">
+        <form>
+            <label class="label" for="backgroundColor">Background Color: </label>
+            <select name="Background Color" id="backgroundColor" onclick="changeBackColor()">
+                <option value="white">--</option>
+                <option value="#C9COBB">Silver</option>
+                <option value="#91affe">Blue</option>
+                <option value="#7DCEA0">Green</option>
+            </select>
+        </form>
+    </div>
+
+    <!-- Colour picker -->
+    <div class="color-picker">
+        <label for="color-picker">Color-picker</label><br>
+        <input type="color" onchange="changeColor()" id="color-picker">
+    </div>
+
+    <!-- Gallery -->
+    <div id="container" class="gallery">
+        <div class="box">
+            <img class="image" src="images/cricket.jpg" alt="click here" onmouseover="change(this.src);text2()">
+        </div>
+        <div class="box">
+            <img class="image" src="images/baseball.jpeg" alt="click here" onmouseover="change(this.src);text1()">
+        </div>
+        <div class="box">
+            <img class="image" src="images/football.jpeg" alt="click here" onmouseover="change(this.src);text3()">
+        </div>
+        <div class="box">
+            <img class="image" src="images/badminton.jpeg" alt="click here" onmouseover="change(this.src);text4()">
+        </div>
+        <div class="box">
+            <img class="image" src="images/basketball.jpeg" alt="click here" onmouseover="change(this.src);text5()">
+        </div>
+        <div class="box">
+            <img class="image" src="images/hockey.jpeg" alt="click here" onmouseover="change(this.src);text6()">
+        </div>
+        <div class="box">
+            <img class="image" src="images/golf.jpg" alt="click here" onmouseover="change(this.src);text7()">
+        </div>
+        <div class="box">
+            <img class="image" src="images/netball.jpg" alt="click here" onmouseover="change(this.src);text8()">
+        </div>
+    </div>
+
+    <!-- Gallery Hovering -->
+    <div class="mainView">
+        <img class="image" src="images/main.png" alt="click here" id="main">
+        <span id="text"> --</span>
+    </div>
+
+    <!-- Footer Starts -->
+    <footer class="footer">
+        <div class="line-1">
+            Copyright &copy; 2023 ALL STARS (Pvt) Ltd.All Rights Reserved. Developed by <a
+                href="Student4.html">Tharupathi
+                Vihasa</a>
+        </div>
+    </footer>
+    <!-- Footer Ends -->
+</body>
+
+</html>

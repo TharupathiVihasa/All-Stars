@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+body{
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+}
+.nav{
+    overflow: hidden;
+    background-color: rgb(14, 14, 14);
+}
+.nav .anchor ,.nav .anchor1, .nav .dropbtn{   /* styling for all anchor tags */
+    float: left;
+    text-align: center;
+    padding: 15px 16px 15px 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+.dropdown{       /* styling for dropdown menu */
+    float: right;
+    overflow: hidden;
+} 
+.dropbtn{     /* styling for the others button */
+    cursor: pointer;
+}
+.logo{
+    padding:0%;
+    float: left;
+    height: 62px;
+    width: auto;
+}
+.image-logo{
+    height:62px;
+    width: auto;
+}
+
+
+/* Style for the Page */
+
+/* Background image styles */
+#bg-image {
+    background-image: url("images/sports.png");
+    position: absolute;
+    width: 100%;
+    height: 130vh;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Header styles */
+h1{
+    font-weight: bolder;   
+    opacity: 10;
+}
+
+/* svg Styles */
+.svgBody{
+	background-color:yellow ;
+	font-family: "Poppins", sans-serif;
+}
+.svg{
+    text-align: center;
+	color: rgb(43, 7, 104);
+	font-family:"Poppins", sans-serif;
+	padding-bottom:30px;
+	font-size:60px; 
+}
+svg{
+    margin: auto;
+    display: block;
+}
+text{
+	font-family:"Poppins", sans-serif;
+	font-weight: bold;
+    font-size: 20px;
+    fill: rgb(43, 7, 104);
+}
+line {
+    stroke: rgb(82, 12, 167);
+    stroke-width: 5;
+}
+
+/* Css for the footer */
+.footer {
+    text-align: center;
+    font-weight: bolder;
+    width: 80vw;
+    height: 7vh;
+    margin: auto;
+    top: 92vh;
+    left: 10vw;
+    background-color: #030303;
+    color: #fffcfc;
+    position: fixed;
+    left: calc(50vw - 480px);
+  }
